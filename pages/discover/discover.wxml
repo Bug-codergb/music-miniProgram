@@ -1,0 +1,3 @@
+<my-swiper list="{{banner}}"></my-swiper>
+<nav-list></nav-list>
+<rec-playlist></rec-playlist>

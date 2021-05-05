@@ -1,0 +1,36 @@
+@import "../../../../assets/font/iconfont.wxss";
+.play-list-outer {
+  padding: 0 15rpx 0 15rpx;
+}
+
+.play-list {
+  display: flex;
+}
+
+.play-list .img-container image {
+  width: 200rpx;
+  border-radius: 10rpx;
+}
+
+.play-list .state {
+  font-size: 12px;
+  width: 200rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient: vertical;
+}
+.play-list-item {
+  margin: 0 30rpx 0 0;
+  position:relative;
+}
+.play-count{
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translate(-110%,-40%);
+  color:#fff;
+  font-size:24rpx;
+}

@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/discover/discover",
+    "pages/djRadio/djRadio",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ec4141",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#ec4141",
+    "list": [{ 
+      "pagePath": "pages/discover/discover",
+      "text": "发现",
+      "iconPath": "/assets/img/tabbar/discover1.png",
+      "selectedIconPath": "/assets/img/tabbar/discover.png"
+    },{
+      "pagePath": "pages/djRadio/djRadio",
+      "text": "博客",
+      "iconPath": "/assets/img/tabbar/dj.png",
+      "selectedIconPath": "/assets/img/tabbar/dj1.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

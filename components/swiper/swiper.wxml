@@ -1,0 +1,12 @@
+<swiper class="discover-swiper-outer" circular="{{true}}" 
+        indicator-dots="{{true}}" 
+        indicator-active-color="#ec4141"
+        autoplay
+        interval='3000'>
+  <block wx:for="{{list}}" wx:key="{{item.targetId}}">
+    <swiper-item class="discover-swiper-item">
+      <image src="{{item.pic}}" mode="widthFix" />
+    </swiper-item>
+  </block>
+</swiper>
+

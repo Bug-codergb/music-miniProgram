@@ -1,0 +1,16 @@
+<!--pages/discover/childCpn/recPlaylist/rec-playlist.wxml-->
+<scroll-view scroll-x class="play-list-outer">
+  <view class="play-list">
+  <view wx:for="{{recPlaylist}}" class="play-list-item">
+    <view class="img-container">
+      <image src="{{item.picUrl}}" mode="widthFix"
+      />
+    </view>
+    <text class="state">{{item.name}}</text>
+    <view class="play-count">
+      <icon class="iconfont icon-play"></icon>
+      <text>{{item.playCount}}</text>
+    </view>
+  </view>
+</view>
+</scroll-view>

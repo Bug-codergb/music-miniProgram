@@ -1,0 +1,28 @@
+@import "/assets/font/iconfont.wxss";
+.container{
+  width: 100%;
+}
+.nav-list{
+  display: flex;
+  padding: 0 15rpx;
+  justify-content: space-between;
+  height:200rpx;
+}
+.nav-list .nav-item{
+  text-align: center;
+}
+.nav-list .nav-item view{
+  width: 100rpx;
+  height: 100rpx;
+  background-color:#fff1f1;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 50%;
+}
+.nav-item icon{
+  font-size:60rpx;
+  color:#ff3937;
+}
+.nav-list text{
+  font-size: 12px;
+}
