@@ -1,9 +1,10 @@
-<!--pages/discover/childCpn/recPlaylist/rec-playlist.wxml-->
+<wxs src="../../../../utils/resetSize.wxs" module="tools"></wxs>
+<title titleName="推荐歌单" ></title>
 <scroll-view scroll-x class="play-list-outer">
   <view class="play-list">
   <view wx:for="{{recPlaylist}}" class="play-list-item">
-    <view class="img-container">
-      <image src="{{item.picUrl}}" mode="widthFix"
+    <view class="img-container" bind:tap="playlistRouter" data-item="{{item}}">
+      <image src="{{tools.resetSize(item.picUrl,85,85)}}" mode="widthFix"
       />
     </view>
     <text class="state">{{item.name}}</text>

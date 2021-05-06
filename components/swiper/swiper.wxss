@@ -1,3 +1,6 @@
 .discover-swiper-outer{
   padding: 15rpx;
 }
+.discover-swiper-item image{
+  width: 100%;
+}

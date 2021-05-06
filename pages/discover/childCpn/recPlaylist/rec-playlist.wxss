@@ -13,7 +13,7 @@
 }
 
 .play-list .state {
-  font-size: 12px;
+  font-size:30rpx;
   width: 200rpx;
   overflow: hidden;
   text-overflow: ellipsis;

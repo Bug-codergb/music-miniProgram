@@ -1,0 +1,7 @@
+function resetSize(url,height,width)
+{
+  return url+"?param="+height+"y"+width
+}
+module.exports={
+  resetSize:resetSize
+}

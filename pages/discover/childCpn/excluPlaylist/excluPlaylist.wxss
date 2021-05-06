@@ -1,0 +1,9 @@
+.exclusive-playlist-title{
+  margin: 35rpx 0 30rpx 0;
+}
+.playlist{
+  display: flex;
+  width: 1340rpx;
+  justify-content: space-between;
+  padding: 0 15rpx;
+}

@@ -1,0 +1,14 @@
+<!--专属歌单-->
+<view class="exclusive-playlist-title">
+  <title/>
+</view>
+<scroll-view scroll-x class="container">
+  <view class="playlist">
+  <view wx:for="{{exculPlaylist}}" wx:key="{{item.id}}" class="playlist-item">
+    <list-item imgUrl="{{item.coverImgUrl}}" 
+               state="{{item.name}}"
+               playCount="{{item.playCount}}"></list-item>
+  </view>
+</view>
+</scroll-view>
+

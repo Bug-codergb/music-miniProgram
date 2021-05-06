@@ -1,0 +1,17 @@
+.title-outer{
+  padding: 0 15rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 30rpx 0;
+}
+.title-outer .title-name{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.more{
+  font-size: 28rpx;
+  border: 1px solid #e9e9e9;
+  padding: 6rpx 36rpx;
+  border-radius: 15px;
+}

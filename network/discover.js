@@ -18,3 +18,15 @@ export function getRecPlaylist(limit)
     }
   })
 }
+//获取歌单列表
+export function getPlaylist(cat="华语",offset=0,limit=10)
+{
+  return request({
+    url:'/top/playlist',
+    data:{
+      cat,
+      offset,
+      limit
+    }
+  })
+}

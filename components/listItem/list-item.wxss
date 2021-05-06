@@ -1,0 +1,33 @@
+@import "../../assets/css/base.wxss";
+@import "../../assets/font/iconfont.wxss";
+.list-item{
+  position: relative;
+}
+.img-container image{
+  width: 200rpx;
+  border-radius: 10rpx;
+}
+.state{
+  font-size: 30rpx;
+  width: 200rpx;
+  display: inline-block;
+  margin: 15rpx 0;
+}
+.play-count{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top:2%;
+  left: 100%;
+  transform: translateX(-110%);
+  height: 26rpx;
+}
+.play-count icon {
+  color: #fff;
+  display: inline;
+}
+.play-count .count{
+  font-size: 26rpx;
+  color: #fff;
+  white-space: nowrap;
+}

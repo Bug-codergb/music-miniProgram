@@ -1,0 +1,12 @@
+<wxs src="../../utils/resetSize.wxs" module="tools"></wxs>
+<wxs src="../../utils/formatCount.wxs" module="format"></wxs>
+<view class="list-item">
+  <view class="img-container">
+    <image src="{{tools.resetSize(imgUrl,85,85)}}" mode="widthFix"/>
+  </view>
+  <text class="state line-nowrap">{{state}}</text>
+  <view class="play-count">
+    <icon class="iconfont icon-play"></icon>
+    <text class="count">{{format.formatCount(playCount)}}</text>
+  </view>
+</view>
