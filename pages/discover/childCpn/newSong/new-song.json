@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tab-control":"/components/tabControl/tab-control"
+  }
+}

@@ -4,7 +4,8 @@
 </view>
 <scroll-view scroll-x class="container">
   <view class="playlist">
-  <view wx:for="{{exculPlaylist}}" wx:key="{{item.id}}" class="playlist-item">
+  <view wx:for="{{exculPlaylist}}" wx:key="{{item.id}}" class="playlist-item" 
+        bind:tap="playlistRouter" data-item="{{item}}">
     <list-item imgUrl="{{item.coverImgUrl}}" 
                state="{{item.name}}"
                playCount="{{item.playCount}}"></list-item>

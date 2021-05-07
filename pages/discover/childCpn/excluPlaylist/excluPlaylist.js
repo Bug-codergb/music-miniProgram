@@ -17,6 +17,12 @@ Component({
     }
   },
   methods: {
-
+    playlistRouter(e)
+    {
+      const {item}=e.currentTarget.dataset;
+      wx.navigateTo({
+        url: '/pages/detail-page/playlistDetail/playlist-detail?id='+item.id,
+      })
+    }
   }
 })

@@ -1,0 +1,7 @@
+function setBlur(url)
+{
+  return url+"?imageView&blur=40x20";
+}
+module.exports={
+  setBlur:setBlur
+}

@@ -1,2 +1,38 @@
-<!--pages/detail-page/playlistDetail/playlist-detail.wxml-->
-<text>pages/detail-page/playlistDetail/playlist-detail.wxml</text>
+<wxs src="../../../utils/blur.wxs" module="tools"></wxs>
+<wxs src="../../../utils/resetSize.wxs" module="reset"></wxs>
+<wxs src="../../../utils/formatCount.wxs" module="format"></wxs>
+<view class="playlist-header" 
+      style="background-image:url({{tools.setBlur(playlistDetail.coverImgUrl)}})"
+      wx:if="{{playlistDetail.id}}">
+    <view class="img-container">
+      <image src="{{reset.resetSize(playlistDetail.coverImgUrl,100,100)}}" mode="widthFix" />
+    </view>
+    <view class="msg">
+      <div class="title">{{playlistDetail.name}}</div>
+      <div class="user-msg">
+        <view class="avatar">
+          <image src="{{reset.resetSize(playlistDetail.creator.avatarUrl,20,20)}}" mode="widthFix"/>
+        </view>
+        <view class="user-name">
+          {{playlistDetail.creator.nickname}}
+        </view>
+      </div>
+    </view>
+    <view class="control-btn">
+      <view class="sub">
+        <icon class="iconfont icon-shoucangjia gb-icon"></icon>
+        {{format.formatCount(playlistDetail.subscribedCount)}}
+      </view>
+      <view class="message">
+        <icon class="iconfont icon-message gb-icon"></icon>
+        {{format.formatCount(playlistDetail.commentCount)}}
+      </view>
+      <view class="share">
+        <icon class="iconfont icon-share gb-icon"></icon>
+          {{format.formatCount(playlistDetail.shareCount)}}
+      </view>
+    </view>
+</view>
+<view class="song-list-outer" wx:if="{{playlistDetail.trackIds}}">
+  <song-list songList="{{playlistDetail.trackIds}}"/>
+</view>

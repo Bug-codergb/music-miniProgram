@@ -30,3 +30,13 @@ export function getPlaylist(cat="华语",offset=0,limit=10)
     }
   })
 }
+//获取歌单详情
+export function getPlaylistDetail(id)
+{
+  return request({
+    url:"/playlist/detail",
+    data:{
+      id
+    }
+  })
+}

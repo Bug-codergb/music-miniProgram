@@ -1,0 +1,14 @@
+<view>
+  <tab-control list="{{['新歌','新碟','数字专辑']}}">
+    <view slot="新歌">
+      新歌
+    </view>
+    <view slot="新碟">
+      xindie
+    </view>
+    <view slot="数字专辑">
+      数字
+    </view>
+    <view slot="de">frrewsf</view>
+  </tab-control>
+</view>

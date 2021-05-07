@@ -1,0 +1,30 @@
+<view class="outer">
+  <view class="song-list-header">
+    <view class="play-all">
+      <view class="iconfont icon-play1 play-all-icon"></view>
+      <view>播放全部</view>
+    </view>
+    <view>
+      <icon class="iconfont icon-xiazai download-icon"></icon>
+      <icon class="iconfont icon-dui already-download-icon"></icon>
+    </view>
+  </view>
+  <view wx:for="{{songList}}" wx:key="{{item.id}}" class="list">
+    <view class="index">
+      {{index+1}}
+    </view>
+    <view class="song-msg text-nowrap">
+      <view class="song-name text-nowrap">{{item.name}}</view>
+      <view class="ar-al text-nowrap">
+        <view class="artist-name text-nowrap">{{item.ar[0].name}}-</view>
+        <view class="album-name text-nowrap">{{item.al.name}}</view>
+      </view>
+    </view>
+    <view class="mv-play" >
+      <icon class="iconfont icon-Play mv-icon" wx:if="{{item.mv!==0}}"></icon>
+    </view>
+    <view class="detail">
+      <i class="iconfont icon-MoreVertical"></i>
+    </view>
+  </view>
+</view>

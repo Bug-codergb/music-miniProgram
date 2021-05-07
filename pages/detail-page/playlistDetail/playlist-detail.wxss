@@ -1,1 +1,74 @@
-/* pages/detail-page/playlistDetail/playlist-detail.wxss */
+@import "../../../assets/font/iconfont.wxss";
+.playlist-header{
+  height: 300rpx;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 8000rpx;
+  display: flex;
+  padding: 60rpx 20rpx 20rpx;
+  position: relative;
+}
+.playlist-header .img-container image{
+  width: 240rpx;
+  border-radius: 10rpx;
+}
+.playlist-header .title{
+  color: #fff;
+  font-size: 35rpx;
+}
+.playlist-header .msg{
+  margin:0 0 0 30rpx;
+}
+.user-msg{
+  display: flex;
+  align-items: center;
+  margin: 25rpx 0 0 0;
+}
+.user-msg .avatar image {
+  width: 50rpx;
+  border-radius: 50%;
+}
+.user-msg .user-name{
+  font-size: 30rpx;
+  color:#FFF;
+  margin: 0 0 0 20rpx;
+}
+.control-btn{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top:100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  box-shadow: 0 0 30rpx rgba(0, 0, 0, .3);
+  width:75%;
+  padding:10rpx;
+  border-radius: 40rpx;
+}
+.control-btn view{
+  flex:1;
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.control-btn .gb-icon{
+  color:#363636;
+  font-size:40rpx;
+  margin:-8rpx 10rpx 0 0;
+} 
+.sub .gb-icon{
+  font-weight: bolder;
+  font-size:36rpx;
+}
+.message{
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.song-list-outer{
+  margin: 80rpx 0 0 0;
+  padding: 30rpx 0 0 0;
+  border-top: 1px solid #f2f2f2;
+}

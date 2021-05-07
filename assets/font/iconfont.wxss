@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2525753 */
-  src: url('https://at.alicdn.com/t/font_2525753_o8xs7fvyzkf.woff2?t=1620179397924') format('woff2'),
-       url('https://at.alicdn.com/t/font_2525753_o8xs7fvyzkf.woff?t=1620179397924') format('woff'),
-       url('https://at.alicdn.com/t/font_2525753_o8xs7fvyzkf.ttf?t=1620179397924') format('truetype');
+  src: url('//at.alicdn.com/t/font_2525753_ro324wjudz.woff2?t=1620351468981') format('woff2'),
+       url('//at.alicdn.com/t/font_2525753_ro324wjudz.woff?t=1620351468981') format('woff'),
+       url('//at.alicdn.com/t/font_2525753_ro324wjudz.ttf?t=1620351468981') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,38 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-MoreVertical:before {
+  content: "\e66c";
+}
+
+.icon-Play:before {
+  content: "\e72c";
+}
+
+.icon-dui:before {
+  content: "\e60d";
+}
+
+.icon-xiazai:before {
+  content: "\e6ac";
+}
+
+.icon-play1:before {
+  content: "\e6c8";
+}
+
+.icon-message:before {
+  content: "\e63a";
+}
+
+.icon-shoucangjia:before {
+  content: "\e62e";
+}
+
+.icon-share:before {
+  content: "\e764";
 }
 
 .icon-play:before {

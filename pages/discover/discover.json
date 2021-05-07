@@ -3,7 +3,8 @@
     "my-swiper":"/components/swiper/swiper",
     "nav-list":"/pages/discover/childCpn/navList/nav-list",
     "rec-playlist":"/pages/discover/childCpn/recPlaylist/rec-playlist",
-    "exclu-playlist":"/pages/discover/childCpn/excluPlaylist/excluPlaylist"
+    "exclu-playlist":"/pages/discover/childCpn/excluPlaylist/excluPlaylist",
+    "new-song":"/pages/discover/childCpn/newSong/new-song"
   },
   "navigationBarTitleText": "发现音乐"
 }

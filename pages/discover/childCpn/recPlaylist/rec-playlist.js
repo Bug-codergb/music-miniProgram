@@ -15,7 +15,7 @@ Component({
   lifetimes:{
     created:function(){
       getRecPlaylist(6).then(data=>{
-        console.log(data.result)
+        //console.log(data.result)
         this.setData({
           recPlaylist:data.result
         })

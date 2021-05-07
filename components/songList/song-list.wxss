@@ -1,0 +1,62 @@
+@import "../../assets/font/iconfont.wxss";
+@import "../../assets/css/base.wxss";
+.song-list-header{
+  padding: 0 15rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.play-all{
+  display: flex;
+  align-items: center;
+}
+.play-all .play-all-icon{
+  color: #fe382a;
+  font-size: 42rpx;
+}
+.play-all view{
+  font-size: 34rpx;
+  font-weight: bold;
+  margin: 0 0 0 20rpx;
+}
+.song-list-header .download-icon{
+  font-size: 50rpx;
+  color: #333333;
+}
+.song-list-header .already-download-icon{
+  font-size: 45rpx;
+  color: #333333;
+}
+.outer .list{
+  display: flex;
+  align-items: center;
+  padding: 20rpx 15rpx;
+}
+.list .index{
+  color: #999999;
+  padding: 0 30rpx;
+}
+.outer .list .song-msg{
+  width: 60%;
+  margin: 0 30rpx 0 0 ;
+}
+.song-msg .song-name{
+  width: 100%;
+}
+.song-msg .ar-al{
+  width: 100%;
+}
+.song-name{
+  font-size:34rpx;
+}
+.outer .list .song-msg .ar-al{
+  display: flex;
+  font-size: 30rpx;
+  color: #b3b3b3;
+}
+.mv-play{
+  width: 10%;
+}
+.mv-play .mv-icon{
+  color: #ff3729;
+}

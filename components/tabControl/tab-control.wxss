@@ -1,0 +1,14 @@
+.tab-control{
+  display: flex;
+  width: 100%;
+}
+.tab-control .tab-control-item{
+  flex: 1;
+  text-align: center;
+  color: #999999;
+  font-size:35rpx;
+}
+.tab-control .active{
+  color: #333;
+  font-weight: bold;
+}

@@ -1,18 +1,20 @@
-// pages/detail-page/playlistDetail/playlist-detail.js
+import {getPlaylistDetail} from "../../../network/discover"
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    playlistDetail:{}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
+    const {id}=options;
+    getPlaylistDetail(id).then(data=>{
+      console.log(data);
+      this.setData({
+        playlistDetail:data.playlist
+      })
+    })
   },
 
   /**
