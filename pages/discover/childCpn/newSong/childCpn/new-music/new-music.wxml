@@ -1,0 +1,16 @@
+<wxs src="../../../../../../utils/resetSize.wxs" module="reset"></wxs>
+<scroll-view scroll-x class="new-music-outer">
+  <view>
+    <view class="new-music">
+    <view wx:for="{{newMusic}}" wx:key="item.id" class="new-music-item">
+      <msg-item>
+        <view slot="img">
+          <image src="{{reset.resetSize(item.picUrl,85,85)}}" mode="widthFix" class="new-music-cover" />
+        </view>
+        <view slot="title" class="new-music-title line-nowrap">{{item.name}}</view>
+        <view slot="creator" class="new-music-creator">{{item.song.artists[0].name}} </view>
+      </msg-item>
+    </view>
+  </view>
+</view>
+</scroll-view>

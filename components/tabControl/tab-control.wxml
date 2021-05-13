@@ -1,15 +1,13 @@
 <view class="tab-control">
-  <view wx:for="{{list}}" wx:key="{{item}}" 
+  <view wx:for="{{list}}" wx:key="item" 
         bind:tap="viewClick" 
         data-index="{{index}}"
         class="tab-control-item {{currentIndex===index?'active':''}}">
     {{item}}
   </view>
-  <slot name="de"></slot>
 </view>
 <view class="content">
-  <view wx:for="{{list}}" wx:key="{{item}}" hidden="{{index!==currentIndex}}">
+  <view wx:for="{{list}}" wx:key="item" hidden="{{index!==currentIndex}}">
     <slot name="{{item}}"></slot>
-   
-  </view>
+  </view>  
 </view>

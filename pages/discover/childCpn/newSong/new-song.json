@@ -1,6 +1,9 @@
 {
   "component": true,
   "usingComponents": {
-    "tab-control":"/components/tabControl/tab-control"
+    "tab-control":"/components/tabControl/tab-control",
+    "new-music":"/pages/discover/childCpn/newSong/childCpn/new-music/new-music",
+    "new-album":"/pages/discover/childCpn/newSong/childCpn/new-album/new-album",
+    "digital-album":"/pages/discover/childCpn/newSong/childCpn/digital-album/digital-album"
   }
 }

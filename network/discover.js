@@ -40,3 +40,35 @@ export function getPlaylistDetail(id)
     }
   })
 }
+//获取最新音乐
+export function getNewMusic(limit)
+{
+  return request({
+    url:"/personalized/newsong",
+    data:{
+      limit
+    }
+  })
+}
+//新碟上架
+export function getNewAlbum(offset,limit)
+{
+  return request({
+    url:"/album/new",
+    data:{
+      offset,
+      limit
+    }
+  })
+}
+//数字专辑
+export function getDigitalAlbum(offset,limit)
+{
+  return request({
+    url:'/album/list',
+    data:{
+      offset,
+      limit
+    }
+  })
+}

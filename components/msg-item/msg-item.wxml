@@ -1,0 +1,14 @@
+<view class="msg-item">
+  <view class="img-container">
+    <slot name="img"></slot>
+  </view>
+  <view class="state">
+    <view class="msg">
+      <slot name="title"></slot>
+      <slot name="creator"></slot>
+    </view>
+    <view class="des">
+      <slot name="desc"></slot>
+    </view>
+  </view>
+</view>

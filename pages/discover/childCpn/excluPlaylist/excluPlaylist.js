@@ -9,7 +9,7 @@ Component({
   lifetimes:{
     created:function(){
       getPlaylist("华语",0,6).then(data=>{
-        console.log(data.playlists);
+        //console.log(data.playlists);
         this.setData({
           exculPlaylist:data.playlists
         })

@@ -10,3 +10,6 @@
   overflow: hidden;
   white-space: nowrap;
 }
+img{
+  vertical-align: bottom;
+}

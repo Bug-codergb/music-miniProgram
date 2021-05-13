@@ -1,0 +1,17 @@
+<wxs src="../../../../../../utils/resetSize.wxs" module="reset"></wxs>
+<scroll-view scroll-x class="new-digital-outer">
+  <view>
+    <view class="new-digital">
+    <view wx:for="{{digitalAlbum}}" wx:key="item.albumId" class="new-digital-item">
+      <msg-item>
+        <view slot="img">
+          <image src="{{reset.resetSize(item.coverUrl,85,85)}}" mode="widthFix" class="new-digital-cover" />
+        </view>
+        <view slot="title" class="new-digital-title line-nowrap">{{item.albumName}}</view>
+        <view slot="creator" class="new-digital-creator">{{item.artistName}} </view>
+      </msg-item>
+    </view>
+  </view>
+</view>
+</scroll-view>
+

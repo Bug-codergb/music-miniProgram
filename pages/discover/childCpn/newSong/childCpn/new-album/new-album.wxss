@@ -1,0 +1,28 @@
+@import "../../../../../../assets/css/base.wxss";
+.new-album-cover{
+  width:200rpx;
+  border: 1px solid rgba(0,0,0,.3);
+  border-radius: 10rpx;
+}
+.new-album-title{
+  font-size:34rpx;
+  margin: 30rpx 0 20rpx 0;
+}
+.new-album-creator{
+  font-size: 30rpx;
+  color: #9b9b9b;
+}
+.new-album{
+  display: flex;
+  flex-wrap:wrap;
+  width: 1100rpx;
+  justify-content: space-between;
+}
+.new-album-item{
+  width: 500rpx;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 15rpx 0;
+}
+.new-album-outer{
+  width: 730rpx;
+}

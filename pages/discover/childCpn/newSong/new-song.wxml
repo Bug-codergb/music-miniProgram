@@ -1,14 +1,14 @@
-<view>
+<view class="new-song">
   <tab-control list="{{['新歌','新碟','数字专辑']}}">
     <view slot="新歌">
-      新歌
+      <new-music/>
     </view>
     <view slot="新碟">
-      xindie
+      <new-album/>
     </view>
     <view slot="数字专辑">
-      数字
+      <digital-album/>
     </view>
-    <view slot="de">frrewsf</view>
   </tab-control>
+  <view class="more">更多</view>
 </view>

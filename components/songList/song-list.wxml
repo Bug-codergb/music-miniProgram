@@ -9,7 +9,7 @@
       <icon class="iconfont icon-dui already-download-icon"></icon>
     </view>
   </view>
-  <view wx:for="{{songList}}" wx:key="{{item.id}}" class="list">
+  <view wx:for="{{songList}}" wx:key="item.id" class="list">
     <view class="index">
       {{index+1}}
     </view>

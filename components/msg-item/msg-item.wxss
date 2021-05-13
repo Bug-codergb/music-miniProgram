@@ -1,0 +1,6 @@
+.msg-item{
+  display: flex;
+}
+.state{
+  margin: 0 0 0 30rpx;
+}

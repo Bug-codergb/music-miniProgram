@@ -1,6 +1,6 @@
 <scroll-view scroll-x class="container">
   <view class="nav-list">
-    <view wx:for="{{5}}" wx:key="{index}}" class="nav-item">
+    <view wx:for="{{5}}" wx:key="index" class="nav-item">
       <view>
         <icon class="iconfont {{font[index]}}"></icon>
       </view>

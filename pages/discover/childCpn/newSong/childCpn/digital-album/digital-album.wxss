@@ -1,0 +1,28 @@
+@import "../../../../../../assets/css/base.wxss";
+.new-digital-cover{
+  width:200rpx;
+  border: 1px solid rgba(0,0,0,.3);
+  border-radius: 10rpx;
+}
+.new-digital-title{
+  font-size:34rpx;
+  margin: 30rpx 0 20rpx 0;
+}
+.new-digital-creator{
+  font-size: 30rpx;
+  color: #9b9b9b;
+}
+.new-digital{
+  display: flex;
+  flex-wrap:wrap;
+  width: 1100rpx;
+  justify-content: space-between;
+}
+.new-digital-item{
+  width: 500rpx;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 15rpx 0;
+}
+.new-digital-outer{
+  width: 730rpx;
+}
