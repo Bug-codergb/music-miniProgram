@@ -1,6 +1,6 @@
 <!--专属歌单-->
 <view class="exclusive-playlist-title">
-  <title/>
+  <title titleName="你的雷达歌单"/>
 </view>
 <scroll-view scroll-x class="container">
   <view class="playlist">

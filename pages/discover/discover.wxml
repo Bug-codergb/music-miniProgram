@@ -5,3 +5,5 @@
 <exclu-playlist/>
 <!--新歌，新碟，数字专辑-->
 <new-song/>
+<!--排行榜-->
+<rank/>

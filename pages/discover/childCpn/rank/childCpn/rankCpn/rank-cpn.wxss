@@ -1,0 +1,32 @@
+@import "/assets/css/base.wxss";
+.rank-cpn{
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  margin: 0 40rpx 0 0;
+  padding: 30rpx 40rpx;
+  border-radius: 20rpx;
+}
+.rank-cpn .title{
+  text-align: center;
+}
+.song-list .img-container image{
+  width: 120rpx;
+  border-radius: 10rpx;
+}
+.list-item{
+  padding:15rpx 0;
+}
+.song-list .list-item{
+  display: flex;
+  align-items: center;
+}
+.list-item .index{
+  padding: 20rpx;
+}
+.list-item .state{
+  font-size: 35rpx;
+  width: 200rpx;
+}
+.list-item .creator{
+  font-size: 32rpx;
+  color: #999999;
+}

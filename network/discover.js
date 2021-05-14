@@ -72,3 +72,11 @@ export function getDigitalAlbum(offset,limit)
     }
   })
 }
+//获取排行榜
+export function getAllRank()
+{
+  return request({
+    url:'/toplist'
+  })
+}
+

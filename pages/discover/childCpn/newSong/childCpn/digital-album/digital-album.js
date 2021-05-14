@@ -17,7 +17,7 @@ Component({
     created()
     {
       getDigitalAlbum(0,6).then(data=>{
-        console.log(data.products);
+        //console.log(data.products);
         this.setData({
           digitalAlbum:data.products
         })

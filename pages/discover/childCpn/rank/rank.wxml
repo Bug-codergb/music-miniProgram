@@ -1,0 +1,10 @@
+<view class="rank">
+  <title titleName="排行榜" />
+</view>
+<scroll-view scroll-x>
+  <view class="rank-title" wx:if="{{rank.length!==0}}">
+    <view class="rank-list-container" wx:for="{{rank}}" wx:key="item.playlist.id">
+      <rank-cpn playlist="{{item.playlist}}" />
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,17 @@
+<wxs src="../../../../../../utils/resetSize.wxs" module="reset"></wxs>
+<wxs src="../../../../../../utils/intercept.wxs" module="intercept"></wxs>
+<view class="rank-cpn">
+  <view class="title">{{playlist.name}}</view>
+  <view class="song-list" wx:if="{{playlist.tracks}}">
+    <view wx:for="{{intercept.interArray(playlist.tracks,0,3)}}" wx:key="item.id" class="list-item">
+      <view class="img-container">
+        <image src="{{reset.resetSize(item.al.picUrl,50,50)}}" mode="widthFix" />
+      </view>
+      <view class="index">
+        {{index+1}}
+      </view>
+      <view class="state text-nowrap">{{item.name}}</view>
+      <view class="creator text-nowrap">{{item.ar[0].name}}</view>
+    </view>
+  </view>
+</view>

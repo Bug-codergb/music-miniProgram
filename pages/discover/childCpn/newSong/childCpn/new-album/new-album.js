@@ -16,7 +16,7 @@ Component({
 lifetimes:{
   created(){
     getNewAlbum(0,6).then(data=>{
-      console.log(data.albums);
+      //console.log(data.albums);
       this.setData({
         albums:data.albums
       })

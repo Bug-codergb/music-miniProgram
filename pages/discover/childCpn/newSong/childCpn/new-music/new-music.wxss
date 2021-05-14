@@ -1,6 +1,6 @@
 @import "../../../../../../assets/css/base.wxss";
 .new-music-cover{
-  width:200rpx;
+  width:196rpx;
   border: 1px solid rgba(0,0,0,.3);
   border-radius: 10rpx;
 }

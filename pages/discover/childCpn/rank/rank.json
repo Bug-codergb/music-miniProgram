@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "title":"/components/title/title",
+    "rank-cpn":"./childCpn/rankCpn/rank-cpn"
+  }
+}
