@@ -1,0 +1,10 @@
+<view class="playlist">
+  <cate-list list="{{tags}}" bind:itemClick="cateClick"></cate-list>
+  <view class="play-list" wx:if="{{playlists.length!==0}}">
+    <view wx:for="{{playlists}}" wx:key="item.id" 
+          class="play-list-item"
+          bind:tap="playlistRouter" data-item="{{item}}">
+      <list-item imgUrl="{{item.coverImgUrl}}" state="{{item.name}}" playCount="{{item.playCount}}"/>
+    </view>
+  </view>
+</view>

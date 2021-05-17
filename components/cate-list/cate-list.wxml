@@ -1,0 +1,13 @@
+<view>
+  <scroll-view scroll-x>
+    <view class="cate-list">
+    <view wx:for="{{list}}" wx:key="item" 
+          bind:tap="viewClick" 
+          data-index="{{index}}"
+          data-item="{{item}}"
+          class="{{index===currentIndex?'active':''}}">
+      {{item.name}}
+    </view>
+  </view>
+  </scroll-view>
+</view>

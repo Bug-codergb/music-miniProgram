@@ -1,4 +1,4 @@
 <view class="title-outer">
   <view class="title-name">{{titleName}}</view>
-  <view class="more">{{more}}</view>
+  <view class="more" bind:tap="playlistRouter">{{more}}</view>
 </view>

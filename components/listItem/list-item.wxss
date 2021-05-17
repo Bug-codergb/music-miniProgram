@@ -6,6 +6,7 @@
 .img-container image{
   width: 200rpx;
   border-radius: 10rpx;
+  vertical-align: bottom;
 }
 .state{
   font-size: 30rpx;

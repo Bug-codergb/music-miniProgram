@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "cate-list":"/components/cate-list/cate-list",
+    "list-item":"/components/listItem/list-item"
+  },
+  "navigationBarTitleText":"歌单广场"
+}

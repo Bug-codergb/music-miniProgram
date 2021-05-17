@@ -60,14 +60,15 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/detail-page/playlistDetail/playlist-detail",
-          "pathName": "pages/detail-page/playlistDetail/playlist-detail",
+          "name": "pages/detail-page/playlist/playlist",
+          "pathName": "pages/detail-page/playlist/playlist",
           "query": "",
           "scene": null
         },
         {
           "name": "pages/discover/discover",
           "pathName": "pages/discover/discover",
+          "query": "",
           "scene": null
         }
       ]

@@ -1,0 +1,13 @@
+.cate-list{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.cate-list view{
+  white-space: nowrap;
+  margin: 0 30rpx 0 0;
+  font-size: 32rpx;
+}
+.cate-list view.active{
+  border-bottom: 8rpx solid #fe4f4d;
+  font-weight: bold;
+}

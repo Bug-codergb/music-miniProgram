@@ -3,7 +3,8 @@
     "pages/discover/discover",
     "pages/djRadio/djRadio",
     "pages/profile/profile",
-    "pages/detail-page/playlistDetail/playlist-detail"
+    "pages/detail-page/playlistDetail/playlist-detail",
+    "pages/detail-page/playlist/playlist"
   ],
   "window": {
     "backgroundTextStyle": "light",
